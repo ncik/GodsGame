@@ -1,11 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Card.cs">
     <Files>
-      <File FileName="Assets\Scripts\Card.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RenderTexture.cs" Line="26" Column="13" />
-      <File FileName="Assets\Scripts\PrintableSheet.cs" Line="26" Column="1" />
-      <File FileName="Assets\Scripts\Card.cs" Line="23" Column="40" />
+      <File FileName="Assets\Scripts\Card.cs" Line="55" Column="9" />
+      <File FileName="Assets\Scripts\RenderTexture.cs" Line="44" Column="13" />
+      <File FileName="Assets\Scripts\PrintableSheet.cs" Line="21" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
