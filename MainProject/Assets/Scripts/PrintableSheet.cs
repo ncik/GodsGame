@@ -10,9 +10,9 @@ public class PrintableSheet : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		foreach (Transform anchor in m_Anchors)
+		for (int i = 0; i < m_Anchors.Length; ++i)
 		{
-			GameObject card = Instantiate(m_CardPrefab, anchor.transform.position, Quaternion.identity) as GameObject;
+			GameObject card = Instantiate(m_CardPrefab, m_Anchors[i].transform.position, Quaternion.identity) as GameObject;
 			card.transform.parent = m_Cards.transform;
 		}
 	}

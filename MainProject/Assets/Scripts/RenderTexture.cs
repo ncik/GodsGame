@@ -4,8 +4,8 @@ using System.IO;
 
 public class RenderTexture : MonoBehaviour
 {
-	//public static string TEXTURE_PATH = "C:/Users/samir/Documents/GodsGame/Sheets/";
-	public static string TEXTURE_PATH = "C:/Users/Public/Documents/Unity Projects/GodsGame/Sheets/";
+	public static string TEXTURE_PATH = "C:/Users/samir/Documents/GodsGame/Sheets/";
+	//public static string TEXTURE_PATH = "C:/Users/Public/Documents/Unity Projects/GodsGame/Sheets/";
 	public static string TEXTURE_EXT = ".png";
 
 	public GameObject m_Paper;
