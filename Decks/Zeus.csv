@@ -1,15 +1,15 @@
-Name;Type;Power;Up;Down;Left;Right;Ability 1;Ability 2;Ability 3;Ability 4
-Minotaur;Minion;2;;;;;Knockback;Intimidate;Overwhelm;
-Spark;Minion;3;;;;;Deathtrap;Piercing;Nullify;Ranged
-Eagle of Zeus;Minion;4;;;;;Defensive;Flying;;
-Gigantes;Minion;5;;;;;Draw 2;Shatter;;
-Cretan Kouretes;Minion;6;;;;;Formation 1;Revenge;Salvage;
-The Muses;Minion;7;;;;;DR 1;Grapple;;
-King Minos;Minion;8;;;;;Summon Minotaur;;;
-Heracles;Minion;9;;;;;Reckless;;;
-Wall of Oak;Minion;10;;;;;DR 2;Static;;
-Tornado;Ability;;;;;;Tactics;;;
-Aegis Breastplate;Ability;;;;;;Target creature gains DR 2 (or increases its DR by 2) until the beginning of your next turn.;;;
-Thunderstorm;Ability;;;;;;Eviscerate;;;
-Mount Olympus;Terrain;;;;;;Fortify;Despair;;
-Zeus;God;10;;;;;Eviscerate;Ranged;;
+God;Name;Type;Power;Up;Down;Left;Right;Ability 1;Ability 2;Ability 3;Ability 4
+Zeus;Minotaur;Minion;2;true;true;true;true;Knockback;Intimidate;Overwhelm;
+Zeus;Spark;Minion;3;true;true;true;true;Deathtrap;Piercing;Nullify;Ranged
+Zeus;Eagle of Zeus;Minion;4;true;true;true;true;Defensive;Flying;;
+Zeus;Gigantes;Minion;5;true;true;true;true;Draw 2;Shatter;;
+Zeus;Cretan Kouretes;Minion;6;true;true;true;true;Formation 1;Revenge;Salvage;
+Zeus;The Muses;Minion;7;true;true;true;true;DR 1;Grapple;;
+Zeus;King Minos;Minion;8;true;true;true;true;Summon Minotaur;;;
+Zeus;Heracles;Minion;9;true;true;true;true;Reckless;;;
+Zeus;Wall of Oak;Minion;10;false;false;false;false;DR 2;Static;;
+Zeus;Tornado;Ability;0;false;false;false;false;Tactics;;;
+Zeus;Aegis Breastplate;Ability;0;false;false;false;false;Target creature gains DR 2 (or increases its DR by 2) until the beginning of your next turn.;;;
+Zeus;Thunderstorm;Ability;0;false;false;false;false;Eviscerate;;;
+Zeus;Mount Olympus;Terrain;0;false;false;false;false;Fortify;Despair;;
+Zeus;Zeus;God;10;true;true;true;true;Eviscerate;Ranged;;

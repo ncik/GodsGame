@@ -6,10 +6,12 @@ using System;
 public class Card : MonoBehaviour
 {
 	public static int MAX_LINE_LENGTH = 28;
+	public static int MIN_BOX_HEIGHT = 26;
 	public static int BOX_BORDER = 1;
 
 	public TextMesh m_GodText;
 	public TextMesh m_NameText;
+	public TextMesh m_TypeText;
 	public TextMesh m_PowerText;
 	public TextMesh m_AbilitiesText;
 	public Transform m_AbilitiesBox;
@@ -21,6 +23,7 @@ public class Card : MonoBehaviour
 
 	[SerializeField] private string m_God;
 	[SerializeField] private string m_CardName;
+	[SerializeField] private string m_Type;
 	[SerializeField] private int m_Power;
 	[SerializeField] private string m_Abilities;
 
@@ -28,8 +31,6 @@ public class Card : MonoBehaviour
 	public bool m_ShowDownArrow;
 	public bool m_ShowLeftArrow;
 	public bool m_ShowRightArrow;
-	
-	private float m_MinBoxHeight;
 	
 	public string God
 	{
@@ -42,11 +43,17 @@ public class Card : MonoBehaviour
 		get { return m_CardName; }
 		set { m_NameText.text = m_CardName = value; }
 	}
+	
+	public string Type
+	{
+		get { return m_Type; }
+		set { m_TypeText.text = m_Type = value; }
+	}
 
 	public int Power
 	{
 		get { return m_Power; }
-		set { m_PowerText.text = (m_Power = value).ToString(); }
+		set { m_PowerText.text = value > 0 ? (m_Power = value).ToString() : ""; }
 	}
 
 	public string Abilities
@@ -56,24 +63,29 @@ public class Card : MonoBehaviour
 	}
 
 	// Use this for initialization
-	void Start()
+	public void Start()
 	{
-		m_MinBoxHeight = m_AbilitiesBox.localScale.y;
 		bool[] m_Arrows = new bool[4] { m_ShowUpArrow, m_ShowDownArrow, m_ShowLeftArrow, m_ShowRightArrow };
 
-		Init(m_God, m_CardName, m_Power, m_Abilities, m_Arrows);
+		Init(m_God, m_CardName, m_Type, m_Power, m_Abilities, m_Arrows);
 	}
 	
 	// Update is called once per frame
-	void Update()
+	public void Update()
 	{
 
 	}
 
-	public void Init(string god, string name, int power, string abilities, bool[] arrows)
+	public void Init(Card card)
+	{
+		Init(card.God, card.Name, card.Type, card.Power, card.Abilities, new bool[] { m_ShowUpArrow, m_ShowDownArrow, m_ShowLeftArrow, m_ShowRightArrow });
+	}
+
+	public void Init(string god, string name, string type, int power, string abilities, bool[] arrows)
 	{
 		God = god;
 		Name = name;
+		Type = type;
 		Power = power;
 		Abilities = abilities;
 		m_ShowUpArrow = arrows[0];
@@ -81,6 +93,29 @@ public class Card : MonoBehaviour
 		m_ShowLeftArrow = arrows[2];
 		m_ShowRightArrow = arrows[3];
 		SetArrows();
+	}
+
+	public void Load(string[] data)
+	{
+		bool[] arrows = new bool[4];
+		arrows[0] = bool.Parse(data[4]);
+		arrows[1] = bool.Parse(data[5]);
+		arrows[2] = bool.Parse(data[6]);
+		arrows[3] = bool.Parse(data[7]);
+		string abilities = "";
+		for (int i = 8; i < data.Length; ++i)
+		{
+			if (data[i].Length > 0)
+			{
+				if (i > 8)
+				{
+					abilities += ", ";
+				}
+				abilities += data[i];
+			}
+		}
+
+		Init(data[0], data[1], data[2], int.Parse(data[3]), abilities, arrows);
 	}
 
 	private void SetArrows()
@@ -96,7 +131,7 @@ public class Card : MonoBehaviour
 		m_AbilitiesText.text = WrapText(abilities, MAX_LINE_LENGTH);
 
 		Vector3 v = m_AbilitiesBox.localScale;
-		v.y = Mathf.Max(m_AbilitiesText.renderer.bounds.size.y + BOX_BORDER, m_MinBoxHeight);
+		v.y = Mathf.Max(m_AbilitiesText.renderer.bounds.size.y + BOX_BORDER, MIN_BOX_HEIGHT);
 		m_AbilitiesBox.localScale = v;
 
 		v = m_AbilitiesBox.localPosition;

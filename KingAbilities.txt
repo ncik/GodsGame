@@ -1,0 +1,100 @@
+Usurper*
+
+Chosen:
+If the Hard Worker is not chosen, gain VP instead of the King
+Counts as a blue card when calculating the King's VP
+
+Grunt
+
+Chosen:
+If the King dies, gain 4 VP
+Not chosen:
+Gain 2 VP
+
+Thief*
+
+Chosen:
+Gain bonus 1 VP
+Steal 1 VP from everyone chosen and 1 VP from the King
+Not Chosen:
+Steal 1 VP from one player who wasn't chosen but gained VP this turn
+
+The King*
+
+If completing the quest alone:
+Gain 1 VP
+If completing the quest with 1 blue card:
+Gain 2 VP
+If completing the quest with 2 blue cards:
+Gain 4 VP
+If completing the quest with 3 blue cards:
+Gain 6 VP
+Each red card chosen cancels out a blue card
+If you choose the Heir, the Hand of the King or the Peasant, gain 1 bonus VP 
+The Heir, the Hand of the King and the Peasant each 
+
+The Heir
+
+Chosen:
+Gain 2 VP
+Gain 1 bonus VP if you become King at the end of the round
+The King gains 1VP
+If the King dies, you become the new King
+
+Cleric
+
+Chosen:
+Gain 1 VP
+Become King after the round
+Always:
+Gain 1 VP per blue card chosen
+
+Hand of the King
+
+Chosen:
+Gain 3 VP
+Gain 1 bonus VP if the Assassin is also chosen
+The King gains 1 VP
+
+Hard Worker*
+
+Chosen:
+Split VP gained with the King this round (except bonus VP)
+Prevents the Usurper from gaining VP instead of the King
+Become the new King at the end of the round
+
+Troubadour
+
+Chosen:
+Transform all red cards chosen to blue cards when calculating the King's points this round
+Gain 3 VP for each card transformed
+
+Peasant*
+
+Chosen:
+The King gains 1 VP
+Not Chosen:
+Gain 2 VP
+Always:
+If the King dies, gain 1 bonus VP
+
+Assassin
+
+Chosen:
+If the Hand of the King is also chosen, you die immediately
+If the Hand of the King is not chosen, you kill the King and gain 3 VP
+Become the King at the end of the round if the Heir is not chosen
+
+Poison Master
+
+Chosen:
+You kill the King and gain 3 VP
+Become the King at the end of the round if the Heir is not chosen
+
+Archbishop
+
+Chosen:
+Gain 1VP
+Become the King at the end of the round
+Always:
+Gain 1VP per red card chosen
