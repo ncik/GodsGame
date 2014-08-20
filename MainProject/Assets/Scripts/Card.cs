@@ -5,7 +5,9 @@ using System;
 
 public class Card : MonoBehaviour
 {
-	public static int MAX_LINE_LENGTH = 28;
+	//public static int MAX_LINE_LENGTH = 28;
+	//public static int MIN_BOX_HEIGHT = 26;
+	public static int MAX_LINE_LENGTH = 56;
 	public static int MIN_BOX_HEIGHT = 26;
 	public static int BOX_BORDER = 1;
 
@@ -59,7 +61,11 @@ public class Card : MonoBehaviour
 	public string Abilities
 	{
 		get { return m_Abilities; }
-		set { SetAbilitiesText(m_Abilities = value); }
+		//set { SetAbilitiesText(m_Abilities = value); }
+		set
+		{
+			m_AbilitiesText.text = WrapText(m_Abilities = value, MAX_LINE_LENGTH);
+		}
 	}
 
 	// Use this for initialization
@@ -153,7 +159,7 @@ public class Card : MonoBehaviour
 			string temp = line + " " + s;
 			if(temp.Length > lineLength)
 			{
-				result += line + "\n";
+				result += line + "\n    ";
 				line = s;
 			}
 			else if (temp.Contains("\n"))
