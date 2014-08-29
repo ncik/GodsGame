@@ -7,7 +7,7 @@ public class Card : MonoBehaviour
 {
 	//public static int MAX_LINE_LENGTH = 28;
 	//public static int MIN_BOX_HEIGHT = 26;
-	public static int MAX_LINE_LENGTH = 56;
+	public static int MAX_LINE_LENGTH = 64;
 	public static int MIN_BOX_HEIGHT = 26;
 	public static int BOX_BORDER = 1;
 
