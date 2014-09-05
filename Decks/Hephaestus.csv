@@ -1,0 +1,15 @@
+God;Name;Type;Power;Up;Down;Left;Right;Ability 1;Ability 2;Ability 3;Ability 4
+Hephaestus;Golden Maidens;Minion;2;TRUE;TRUE;TRUE;TRUE;Charm;Draw 3;;
+Hephaestus;Caucasian Eagle;Minion;3;TRUE;TRUE;TRUE;TRUE;Burn;Flying;Grapple;
+Hephaestus;Cyclopes;Minion;4;TRUE;TRUE;TRUE;TRUE;Search your deck or graveyard for any Power card and add it to your hand;;;
+Hephaestus;Bronze Horses;Minion;5;TRUE;TRUE;TRUE;TRUE;Blitz;DR 1;;
+Hephaestus;Gold and Silver Guard Dogs;Minion;6;TRUE;TRUE;TRUE;TRUE;Reckless;Tactics;;
+Hephaestus;Tripod Automaton;Minion;7;TRUE;TRUE;TRUE;TRUE;Formation 1;Revenge;;
+Hephaestus;Bronze Bulls;Minion;8;TRUE;TRUE;TRUE;TRUE;DR 1;;;
+Hephaestus;Talos;Minion;9;TRUE;TRUE;TRUE;TRUE;Flexible;;;
+Hephaestus;Wall of Bronze;Minion;10;FALSE;FALSE;FALSE;FALSE;Can't Attack;DR 2;Salvage;
+Hephaestus;Fire Arrow;Ability;0;FALSE;FALSE;FALSE;FALSE;Target creature gains the Ranged and Precision abilities this turn;Ranged;Precision;
+Hephaestus;Bronze Shield;Ability;0;FALSE;FALSE;FALSE;FALSE;Target creature gains Defensive and Static until the beginning of your next turn;Defensive;Static;
+Hephaestus;Hammer of Thunder;Ability;0;FALSE;FALSE;FALSE;FALSE;Target creature gains 3 Strength and the Piercing ability until the beginning of your next turn;Piercing;;
+Hephaestus;Forge of Olympus;Terrain;0;FALSE;FALSE;FALSE;FALSE;Bulwark;;;
+Hephaestus;Hephaestus;God;10;TRUE;TRUE;TRUE;TRUE;Scavenge;Shatter;;

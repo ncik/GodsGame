@@ -1,0 +1,15 @@
+God;Name;Type;Power;Up;Down;Left;Right;Ability 1;Ability 2;Ability 3;Ability 4
+Dionysus;Nymph;Minion;2;TRUE;TRUE;TRUE;TRUE;Draw 3;Ranged;;
+Dionysus;The Graces;Minion;3;TRUE;TRUE;TRUE;TRUE;Ambush;Charm;Swarm;
+Dionysus;Pan;Minion;4;TRUE;TRUE;TRUE;TRUE;Fortify;All friendly creatures named Satyr gain 2 Strength while this card is in play;Gains 1 Strength for each friendly creature named Satyr in play;
+Dionysus;Satyr;Minion;5;TRUE;TRUE;TRUE;TRUE;Draw 2;Silence;;
+Dionysus;Wildcats;Minion;6;TRUE;TRUE;TRUE;TRUE;Frenzy;Pounce;;
+Dionysus;Maenad;Minion;7;TRUE;TRUE;TRUE;TRUE;Blitz;;;
+Dionysus;Silenus;Minion;8;TRUE;TRUE;TRUE;TRUE;Search your deck or graveyard for a card named Dionysia and add them to your hand;;;
+Dionysus;Centaur;Minion;9;TRUE;TRUE;TRUE;TRUE;Knockback;;;
+Dionysus;Wall of Thorns;Minion;10;FALSE;FALSE;FALSE;FALSE;Can't attack;Flexible;Kamikaze;Piercing
+Dionysus;Prosopon;Ability;0;FALSE;FALSE;FALSE;FALSE;Target creature gains the Tactics ability this turn;Tactics;;
+Dionysus;Feast;Ability;0;FALSE;FALSE;FALSE;FALSE;Greed;;;
+Dionysus;Hand of Midas;Ability;0;FALSE;FALSE;FALSE;FALSE;Petrify up to 2 adjacent creatures;;;
+Dionysus;Dionysia;Terrain;0;FALSE;FALSE;FALSE;FALSE;Reinforcements;;;
+Dionysus;Dionysus;God;10;TRUE;TRUE;TRUE;TRUE;Salvage;Torrent;;

@@ -1,0 +1,15 @@
+God;Name;Type;Power;Up;Down;Left;Right;Ability 1;Ability 2;Ability 3;Ability 4
+Hades;Soul;Minion;2;TRUE;TRUE;TRUE;TRUE;Haunt;Undead;Torrent;
+Hades;Shadow;Minion;3;TRUE;TRUE;TRUE;TRUE;DR 2;Piercing;Ranged;
+Hades;Cerberus;Minion;4;TRUE;TRUE;TRUE;TRUE;Formation 2;Frenzy;Intimidate;
+Hades;Clotho;Minion;5;TRUE;TRUE;TRUE;TRUE;Greed;;;
+Hades;Lachesis;Minion;6;TRUE;TRUE;TRUE;TRUE;Search your deck and/or discard pile for all cards named Shadow and add them to your hand;;;
+Hades;Atropos;Minion;7;TRUE;TRUE;TRUE;TRUE;Eradicate;;;
+Hades;Charon;Minion;8;TRUE;TRUE;TRUE;TRUE;All friendly creatures named X gain 2 Strength while this card is in play;;;
+Hades;Persephone;Minion;9;TRUE;TRUE;TRUE;TRUE;Nullify;;;
+Hades;Wall of Death;Minion;10;FALSE;FALSE;FALSE;FALSE;Can't attack;DR 1;Death Trap;
+Hades;Thread of Life;Ability;0;FALSE;FALSE;FALSE;FALSE;Foresight;Draw 1;;
+Hades;Invisibility Cap;Ability;0;FALSE;FALSE;FALSE;FALSE;Invisibility;;;
+Hades;Key of Hades;Ability;0;FALSE;FALSE;FALSE;FALSE;Eviscerate;Target creature in your graveyard gains Undead this turn;Undead;
+Hades;River Styx;Terrain;0;FALSE;FALSE;FALSE;FALSE;Despair;;;
+Hades;Hades;God;10;TRUE;TRUE;TRUE;TRUE;Indestructible;Slay;;

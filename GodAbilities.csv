@@ -1,0 +1,57 @@
+Abilities;Description
+Ambush;This card is is immune to all damage and effects until the beginning of your next turn after it enters play.
+Army of X;Search your deck and/or discard pile for all cards named X and add them to your hand.
+Blitz;If this creature kills at least 1 enemy creature on the turn it enters play, it can move to an empty adjacent space after the attack.
+Bulwark;All friendly creatures gain DR 1 (or increase their existing DR by 1) while this card is in play (doesn't stack).
+Burn;Opponent discards 1 card of their choice from their hand.
+Charm;Defending creatures do not receive any defensive bonus if this creature deals damage during an attack (including aiding another).
+Death Trap;If this creature is attacked and destroyed in combat, one attacking enemy creature of your choice is destroyed.
+Defensive;Gives full Strength to defensive bonus instead of half.
+Despair;Opponent's creatures lose 1 Strength while this card is in play.
+DR 1;Reduce damage taken from each attacking creature by 1.
+DR 2;Reduce damage taken from each attacking creature by 2.
+Draw 1;Draw 1 card from your deck.
+Draw 2;Draw 2 cards from your deck.
+Draw 3;Draw 3 cards from your deck.
+Eradicate;Destroy all creatures with 5 or less Base Strength.
+Eviscerate;Destroy a creature with 7 or less Base Strength.
+Flexible;Cannot be petrified.
+Flying;Receive half damage (rounded up) from all enemy creatures without Ranged/Flying.
+Focus;You may play an extra Power this turn.
+Foresight;Look at the top 5 cards of your deck and put them back on top of your deck in any order.
+Formation 1;Gains 1 Strength for each friendly creature with the same name in play (except itself).
+Formation 2;Gains 2 Strength for each friendly creature with the same name in play (except itself).
+Fortify;All your creatures gain 1 Strength while this card is in play.
+Frenzy;Can attack in all possible directions at the same time.
+Grapple;Choose a creature that is up to 3 spaces away and move it to the closest square adjacent to this card.
+Greed;Draw 3 cards from your deck, add 2 to your hand and discard the rest.
+Haunt;If this card was put in play from your graveyard, it gains 3 Strength until the beginning of your next turn.
+Indestructible;Cannot be destroyed by card effects.
+Inspire X;All friendly creatures named X gain 2 Strength while this card is in play (doesn't stack).
+Intimidate;Cannot be attacked by creatures with less Base Strength.
+Invisibility;Target creature is immune to all damage and effects during your opponent's next turn.
+Kamikaze;Destroy all adjacent creatures with lower Strength when this card is destroyed (this creature can be attacked by other friendly creatures).
+Knockback;Move an adjacent creature to any empty square adjacent to its current square.
+Nullify;Destroy opponent's terrain card.
+Overwhelm;Gains 1 Strength for each other friendly creature in play.
+Petrify;Instead of attacking, you may petrify an adjacent creature.
+Piercing;Ignore all DR.
+Pounce;Gains 3 Strength on the turn this card enters play.
+Precision;Can attack all enemies in range in a single direction (though all obstacles).
+Rally;Gains 2 Strength for each other friendly creature attacking the defending creature.
+Ranged;Can attack creatures up to 3 spaces away in a straight line.
+Reckless;Gains 2 Strength for each adjacent enemy creature (except the first).
+Reinforcements;Draw 1 extra card during your Draw phase while this card is in play (doesn't stack).
+Revenge;Opponent discards 1 card of their choice from their hand when this card is destroyed.
+Salvage;Draw 1 card when this card is destroyed.
+Scavenge;Add 2 creatures from your graveyard to your hand.
+Shatter;Destroy all petrified cards in play.
+Silence;Opponent cannot play Power cards next turn.
+Slay;Destroy any creature.
+Static;Cannot be moved.
+Summon X;Search your deck or graveyard for a card named X and add them to your hand.
+Swarm;Search your deck for another copy of this card and add it to your hand (or put it in play if this card is your only creature in play).
+Tactics;May switch places with any adjacent card.
+Torrent;You may play an extra Power each turn while this card is in play.
+Undead;You may play this card from your graveyard instead of from your hand.
+X Leader;Gains 1 Strength for each friendly creature named X in play.

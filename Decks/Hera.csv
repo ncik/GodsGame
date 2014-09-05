@@ -1,0 +1,15 @@
+God;Name;Type;Power;Up;Down;Left;Right;Ability 1;Ability 2;Ability 3;Ability 4
+Hera;Stymphalian Bird;Minion;2;TRUE;TRUE;TRUE;TRUE;Flying;Piercing;Precision;Ranged
+Hera;Queen Lamia;Minion;3;TRUE;TRUE;TRUE;TRUE;Eradicate;Scavenge;;
+Hera;Amazon Warrior;Minion;4;TRUE;TRUE;TRUE;TRUE;Formation 2;Pounce;Swarm;
+Hera;Erymanthian Boar;Minion;5;TRUE;TRUE;TRUE;TRUE;DR 1;Intimidate;Reckless;
+Hera;Giant Crab;Minion;6;TRUE;TRUE;TRUE;TRUE;Kamikaze;Nullify;;
+Hera;7-Headed Hydra;Minion;7;TRUE;TRUE;TRUE;TRUE;Frenzy;Indestructible;;
+Hera;Mares of Diomedes;Minion;8;TRUE;TRUE;TRUE;TRUE;Piercing;Knockback;;
+Hera;Nemean Lion;Minion;9;TRUE;TRUE;TRUE;TRUE;Rally;;;
+Hera;100-Eyed Giant;Minion;10;FALSE;FALSE;FALSE;FALSE;Can't attack;DR 1;Foresight;
+Hera;Jealousy;Ability;0;FALSE;FALSE;FALSE;FALSE;Draw 2;Silence;;
+Hera;Fertility;Ability;0;FALSE;FALSE;FALSE;FALSE;Scavenge;;;
+Hera;Goddess Crown;Ability;0;FALSE;FALSE;FALSE;FALSE;You may play 2 extra Powers this turn;;;
+Hera;Olympia;Terrain;0;FALSE;FALSE;FALSE;FALSE;Fortify;;;
+Hera;Hera;God;10;TRUE;TRUE;TRUE;TRUE;Search your deck and/or discard pile for all cards named Amazon Warrior and add them to your hand;Salvage;;

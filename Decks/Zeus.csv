@@ -1,15 +1,15 @@
 God;Name;Type;Power;Up;Down;Left;Right;Ability 1;Ability 2;Ability 3;Ability 4
-Zeus;Minotaur;Minion;2;true;true;true;true;Knockback;Intimidate;Overwhelm;
-Zeus;Spark;Minion;3;true;true;true;true;Deathtrap;Piercing;Nullify;Ranged
-Zeus;Eagle of Zeus;Minion;4;true;true;true;true;Defensive;Flying;;
-Zeus;Gigantes;Minion;5;true;true;true;true;Draw 2;Shatter;;
-Zeus;Cretan Kouretes;Minion;6;true;true;true;true;Formation 1;Revenge;Salvage;
-Zeus;The Muses;Minion;7;true;true;true;true;DR 1;Grapple;;
-Zeus;King Minos;Minion;8;true;true;true;true;Summon Minotaur;;;
-Zeus;Heracles;Minion;9;true;true;true;true;Reckless;;;
-Zeus;Wall of Oak;Minion;10;false;false;false;false;DR 2;Static;;
-Zeus;Tornado;Ability;0;false;false;false;false;Tactics;;;
-Zeus;Aegis Breastplate;Ability;0;false;false;false;false;Target creature gains DR 2 (or increases its DR by 2) until the beginning of your next turn.;;;
-Zeus;Thunderstorm;Ability;0;false;false;false;false;Eviscerate;;;
-Zeus;Mount Olympus;Terrain;0;false;false;false;false;Fortify;Despair;;
-Zeus;Zeus;God;10;true;true;true;true;Eviscerate;Ranged;;
+Zeus;Minotaur;Minion;2;TRUE;TRUE;TRUE;TRUE;Knockback;Intimidate;Overwhelm;
+Zeus;Spark;Minion;3;TRUE;TRUE;TRUE;TRUE;Death Trap;Piercing;Nullify;Ranged
+Zeus;Eagle of Zeus;Minion;4;TRUE;TRUE;TRUE;TRUE;Defensive;Flying;;
+Zeus;Gigantes;Minion;5;TRUE;TRUE;TRUE;TRUE;Draw 2;Shatter;;
+Zeus;Cretan Kouretes;Minion;6;TRUE;TRUE;TRUE;TRUE;Formation 1;Revenge;Salvage;
+Zeus;The Muses;Minion;7;TRUE;TRUE;TRUE;TRUE;DR 1;Grapple;;
+Zeus;King Minos;Minion;8;TRUE;TRUE;TRUE;TRUE;Search your deck or graveyard for a card named Minotaur and add them to your hand;;;
+Zeus;Heracles;Minion;9;TRUE;TRUE;TRUE;TRUE;Reckless;;;
+Zeus;Wall of Oak;Minion;10;FALSE;FALSE;FALSE;FALSE;Can't Attack;DR 2;Static;
+Zeus;Tornado;Ability;0;FALSE;FALSE;FALSE;FALSE;Tactics;;;
+Zeus;Aegis Breastplate;Ability;0;FALSE;FALSE;FALSE;FALSE;Target creature gains DR 2 (or increases its DR by 2) until the beginning of your next turn;DR 2;;
+Zeus;Thunderstorm;Ability;0;FALSE;FALSE;FALSE;FALSE;Eviscerate;;;
+Zeus;Mount Olympus;Terrain;0;FALSE;FALSE;FALSE;FALSE;Fortify;Despair;;
+Zeus;Zeus;God;10;TRUE;TRUE;TRUE;TRUE;Eviscerate;Ranged;;

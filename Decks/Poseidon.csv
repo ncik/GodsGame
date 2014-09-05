@@ -1,0 +1,15 @@
+God;Name;Type;Power;Up;Down;Left;Right;Ability 1;Ability 2;Ability 3;Ability 4
+Poseidon;Siren;Minion;2;TRUE;TRUE;TRUE;TRUE;Charm;Despair;Grapple;Ranged
+Poseidon;Chryasoar;Minion;3;TRUE;TRUE;TRUE;TRUE;Draw 2;Flying;;
+Poseidon;Pegasus;Minion;4;TRUE;TRUE;TRUE;TRUE;Blitz;Flying;;
+Poseidon;Hippocampus;Minion;5;TRUE;TRUE;TRUE;TRUE;Defensive;Swarm;;
+Poseidon;Charybdis;Minion;6;TRUE;TRUE;TRUE;TRUE;Eradicate;Static;;
+Poseidon;Polyphemus;Minion;7;TRUE;TRUE;TRUE;TRUE;Fortify;;;
+Poseidon;Ram of the Golden Fleece;Minion;8;TRUE;TRUE;TRUE;TRUE;Flexible;Indestructible;;
+Poseidon;Scylla;Minion;9;TRUE;TRUE;TRUE;TRUE;Grapple;;;
+Poseidon;Wall of Troy;Minion;10;FALSE;FALSE;FALSE;FALSE;DR 2;Formation 1;;
+Poseidon;Builder;Ability;0;FALSE;FALSE;FALSE;FALSE;Search your deck or graveyard for a card named Wall of Troy and add them to your hand;Shatter;;
+Poseidon;Whirlpool;Ability;0;FALSE;FALSE;FALSE;FALSE;Burn;Knockback;;
+Poseidon;Drown;Ability;0;FALSE;FALSE;FALSE;FALSE;Slay;;;
+Poseidon;Atlantis;Terrain;0;FALSE;FALSE;FALSE;FALSE;Bulwark;Salvage;;
+Poseidon;Poseidon;God;10;TRUE;TRUE;TRUE;TRUE;Eradicate;Frenzy;;

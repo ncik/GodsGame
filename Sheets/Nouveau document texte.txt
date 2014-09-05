@@ -1,9 +1,0 @@
-If completing the quest alone:
-Gain 1 VP
-If completing the quest with 1 blue card:
-Gain 2 VP
-If completing the quest with 2 blue cards:
-Gain 4 VP
-If completing the quest with 3 blue cards:
-Gain 8 VP
-Each red card chosen cancels out a blue card

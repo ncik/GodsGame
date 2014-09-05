@@ -1,0 +1,15 @@
+God;Name;Type;Power;Up;Down;Left;Right;Ability 1;Ability 2;Ability 3;Ability 4
+Hermes;Lost Soul;Minion;2;TRUE;TRUE;TRUE;TRUE;Ambush;Piercing;Ranged;Undead
+Hermes;Sheep;Minion;3;TRUE;TRUE;TRUE;TRUE;Charm;Defensive;Formation 1;Static
+Hermes;Shepherd;Minion;4;TRUE;TRUE;TRUE;TRUE;Search your deck and/or discard pile for all cards named Sheep and add them to your hand;All friendly creatures named Sheep gain 2 Strength while this card is in play;;
+Hermes;Traveler;Minion;5;TRUE;TRUE;TRUE;TRUE;Blitz;Swarm;;
+Hermes;Thieves;Minion;6;TRUE;TRUE;TRUE;TRUE;Burn;Salvage;;
+Hermes;Merchant;Minion;7;TRUE;TRUE;TRUE;TRUE;Tactics;;;
+Hermes;Olympian Athlete;Minion;8;TRUE;TRUE;TRUE;TRUE;Grapple;Knockback;;
+Hermes;Argus;Minion;9;TRUE;TRUE;TRUE;TRUE;Salvage;;;
+Hermes;Wall of Trickery;Minion;10;FALSE;FALSE;FALSE;FALSE;Can't attack;DR 1;Indestructible;Revenge
+Hermes;Winged Sandals;Ability;0;FALSE;FALSE;FALSE;FALSE;Target creature gains the Flying and Knockback abilities;Flying;Knockback;
+Hermes;Magic Wand;Ability;0;FALSE;FALSE;FALSE;FALSE;Draw 2;;;
+Hermes;Herald's Staff;Ability;0;FALSE;FALSE;FALSE;FALSE;Burn;Nullify;;
+Hermes;Hermaea;Terrain;0;FALSE;FALSE;FALSE;FALSE;Torrent;;;
+Hermes;Hermes;God;10;TRUE;TRUE;TRUE;TRUE;Burn;Revenge;;

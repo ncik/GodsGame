@@ -1,0 +1,15 @@
+God;Name;Type;Power;Up;Down;Left;Right;Ability 1;Ability 2;Ability 3;Ability 4
+Athena;Spiders;Minion;2;TRUE;TRUE;TRUE;TRUE;Overwhelm;Static;Swarm;
+Athena;Owl;Minion;3;TRUE;TRUE;TRUE;TRUE;Flying;Foresight;Rally;
+Athena;Snakes;Minion;4;TRUE;TRUE;TRUE;TRUE;Death Trap;Flexible;Ranged;
+Athena;Athenian Soldier;Minion;5;TRUE;TRUE;TRUE;TRUE;Draw 2;Formation 1;;
+Athena;Euryale;Minion;6;TRUE;TRUE;TRUE;TRUE;Draw 1;Intimidate;;
+Athena;Stheno;Minion;7;TRUE;TRUE;TRUE;TRUE;Charm;Nullify;;
+Athena;Medusa;Minion;8;TRUE;TRUE;TRUE;TRUE;Petrify;;;
+Athena;Odysseus;Minion;9;TRUE;TRUE;TRUE;TRUE;Shatter;;;
+Athena;Olive Tree;Minion;10;FALSE;FALSE;FALSE;FALSE;Can't Attack;Reinforcements;Salvage;
+Athena;Justice;Ability;0;FALSE;FALSE;FALSE;FALSE;Focus;Silence;;
+Athena;Aegis Shield;Ability;0;FALSE;FALSE;FALSE;FALSE;Petrify any minion;Shatter;;
+Athena;War Cry;Ability;0;FALSE;FALSE;FALSE;FALSE;Target creature gains the Bulwark and Piercing abilities until the beginning of your next turn;Bulwark;Piercing;
+Athena;Athens;Terrain;0;FALSE;FALSE;FALSE;FALSE;All friendly creatures named Athenian Soldier gain 2 Strength while this card is in play;;;
+Athena;Athena;God;10;TRUE;TRUE;TRUE;TRUE;DR 1;Blitz;;

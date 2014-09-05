@@ -5,11 +5,16 @@ using System;
 
 public class Card : MonoBehaviour
 {
-	//public static int MAX_LINE_LENGTH = 28;
-	//public static int MIN_BOX_HEIGHT = 26;
-	public static int MAX_LINE_LENGTH = 64;
-	public static int MIN_BOX_HEIGHT = 26;
+	//public static string ABILITIES_PATH = "C:/Users/samir/Documents/GodsGame/GodAbilities.csv";
+	public static string ABILITIES_PATH = "C:/Users/Public/Documents/Unity Projects/GodsGame/GodAbilities.csv";
+	
 	public static int BOX_BORDER = 1;
+	// gods
+	public static int MAX_LINE_LENGTH = 38;
+	public static int MIN_BOX_HEIGHT = 26;
+	// king
+	//public static int MAX_LINE_LENGTH = 64;
+	//public static int MIN_BOX_HEIGHT = 26;
 
 	public TextMesh m_GodText;
 	public TextMesh m_NameText;
@@ -33,6 +38,8 @@ public class Card : MonoBehaviour
 	public bool m_ShowDownArrow;
 	public bool m_ShowLeftArrow;
 	public bool m_ShowRightArrow;
+
+	private static Dictionary<string, string> m_AbilityDictionary;
 	
 	public string God
 	{
@@ -61,10 +68,24 @@ public class Card : MonoBehaviour
 	public string Abilities
 	{
 		get { return m_Abilities; }
-		//set { SetAbilitiesText(m_Abilities = value); }
+		set { SetAbilitiesText(m_Abilities = value); }
+		/*
 		set
 		{
 			m_AbilitiesText.text = WrapText(m_Abilities = value, MAX_LINE_LENGTH);
+		}
+		*/
+	}
+
+	public static Dictionary<string, string> AbilityDictionary
+	{
+		get
+		{
+			if (m_AbilityDictionary == null)
+			{
+				LoadAbilitiesFromFile(ABILITIES_PATH);
+			}
+			return m_AbilityDictionary;
 		}
 	}
 
@@ -115,16 +136,23 @@ public class Card : MonoBehaviour
 			{
 				if (i > 8)
 				{
-					abilities += ", ";
+					abilities += "\n\n";
 				}
-				abilities += data[i];
+				if (AbilityDictionary.ContainsKey(data[i]))
+				{
+					abilities += data[i] + ": " + AbilityDictionary[data[i]];
+				}
+				else
+				{
+					abilities += data[i] + ".";
+				}
 			}
 		}
 
 		Init(data[0], data[1], data[2], int.Parse(data[3]), abilities, arrows);
 	}
 
-	private void SetArrows()
+	public void SetArrows()
 	{
 		m_UpArrow.SetActive(m_ShowUpArrow);
 		m_DownArrow.SetActive(m_ShowDownArrow);
@@ -159,7 +187,7 @@ public class Card : MonoBehaviour
 			string temp = line + " " + s;
 			if(temp.Length > lineLength)
 			{
-				result += line + "\n    ";
+				result += line + "\n" /*+ "    "*/;
 				line = s;
 			}
 			else if (temp.Contains("\n"))
@@ -175,5 +203,18 @@ public class Card : MonoBehaviour
 		}
 		result += line;
 		return result.Substring(1,result.Length-1);
+	}
+
+	public static void LoadAbilitiesFromFile(string filePath)
+	{
+		m_AbilityDictionary = new Dictionary<string, string>();
+		string[] lines = System.IO.File.ReadAllLines(filePath);
+		
+		// skip the first line
+		for (int i = 1; i < lines.Length; ++i)
+		{
+			string[] split = lines[i].Split(new string[]{";"}, 2, System.StringSplitOptions.RemoveEmptyEntries);
+			m_AbilityDictionary.Add(split[0], split[1]);
+		}
 	}
 }

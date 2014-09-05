@@ -4,56 +4,56 @@ using System.IO;
 
 public class RenderCamera : MonoBehaviour
 {
-	public static string TEXTURE_PATH = "C:/Users/samir/Documents/GodsGame/Sheets/";
-	//public static string TEXTURE_PATH = "C:/Users/Public/Documents/Unity Projects/GodsGame/Sheets/";
+	//public static string TEXTURE_PATH = "C:/Users/samir/Documents/GodsGame/Sheets/";
+	public static string TEXTURE_PATH = "C:/Users/Public/Documents/Unity Projects/GodsGame/Sheets/";
 	public static string TEXTURE_EXT = ".png";
 
 	public string m_TextureName;
 	public int m_Quality;
 
 	private Texture2D m_RenderTexture;
-	private bool m_IsSaved = true;
+	private bool m_IsReady = true;
 	private int m_Count = 0;
-
-	public bool IsReady
-	{
-		get { return m_IsSaved; }
-	}
+	private GameObject m_CardSheets = null;
 
 	// Use this for initialization
 	public void Start()
 	{
-		m_IsSaved = true;
+		m_IsReady = true;
 	}
 	
 	// Update is called once per frame
 	public void Update()
 	{
-
+		if (m_IsReady && m_CardSheets != null && m_Count < m_CardSheets.transform.childCount)
+		{
+			for (int i = 0; i < m_CardSheets.transform.childCount; ++i)
+			{
+				m_CardSheets.transform.GetChild(i).gameObject.SetActive(i == m_Count);
+			}
+			m_IsReady = false;
+		}
+		else if (m_CardSheets != null && m_Count >= m_CardSheets.transform.childCount)
+		{
+			m_CardSheets = null;
+		}
 	}
-
-	public void SaveRenderTexture()
-	{
-		m_IsSaved = false;
-    }
     
 	public void OnPostRender()
 	{
-		if (!m_IsSaved)
+		if (!m_IsReady)
 		{
-			m_RenderTexture = new Texture2D(Mathf.RoundToInt(Screen.width), Mathf.RoundToInt(Screen.height), TextureFormat.ARGB32, false);
-			m_RenderTexture.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
-			
-			byte[] bytes = m_RenderTexture.EncodeToPNG();
-			Destroy(m_RenderTexture);
-			
-			File.WriteAllBytes(TEXTURE_PATH + m_TextureName + TEXTURE_EXT, bytes);
-			
 			++m_Count;
             Application.CaptureScreenshot(TEXTURE_PATH + m_TextureName + "_" + m_Count + TEXTURE_EXT, m_Quality);
             
-            Debug.Log("Sheet " + m_Count + " printed.");
-			m_IsSaved = true;
+            Debug.Log("Sheet " + m_Count + " saved.");
+			m_IsReady = true;
 		}
+	}
+
+	public void RenderCardSheets(GameObject cardSheets)
+	{
+		m_CardSheets = cardSheets;
+		m_Count = 0;
 	}
 }

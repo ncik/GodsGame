@@ -1,0 +1,15 @@
+God;Name;Type;Power;Up;Down;Left;Right;Ability 1;Ability 2;Ability 3;Ability 4
+Artemis;Nymph;Minion;2;TRUE;TRUE;TRUE;TRUE;Charm;Formation 2;Ranged;Swarm
+Artemis;Archer;Minion;3;TRUE;TRUE;TRUE;TRUE;Ambush;Precision;Ranged;
+Artemis;Hunter;Minion;4;TRUE;TRUE;TRUE;TRUE;Ranged;Scavenge;;
+Artemis;Stag;Minion;5;TRUE;TRUE;TRUE;TRUE;Intimidate;Tactics;;
+Artemis;Venus Flytrap;Minion;6;TRUE;TRUE;TRUE;TRUE;Draw 2;;;
+Artemis;Bloodhound;Minion;7;TRUE;TRUE;TRUE;TRUE;Pounce;Salvage;;
+Artemis;Tree of Knowledge;Minion;8;TRUE;TRUE;TRUE;TRUE;Draw 1;;;
+Artemis;Orion;Minion;9;TRUE;TRUE;TRUE;TRUE;Gains 1 Strength for each friendly creature named Hunter in play;;;
+Artemis;Wall of Vines;Minion;10;FALSE;FALSE;FALSE;FALSE;Can't Attack;Death Trap;Grapple;Static
+Artemis;Entangle;Ability;0;FALSE;FALSE;FALSE;FALSE;Nullify;Silence;;
+Artemis;Healing Wind;Ability;0;FALSE;FALSE;FALSE;FALSE;Target creature in your graveyard gains the Undead and Haunt abilities until the beginning of your next turn;Undead;Haunt;
+Artemis;Hunting Bow;Ability;0;FALSE;FALSE;FALSE;FALSE;Target creature gains 2 Strength and the Ranged ability until the beginning of your next turn;Ranged;;
+Artemis;The Mountains;Terrain;0;FALSE;FALSE;FALSE;FALSE;Fortify;All friendly creatures with the Ranged ability gain the Piercing ability;Piercing;
+Artemis;Artemis;God;10;TRUE;TRUE;TRUE;TRUE;Ambush;Ranged;;
